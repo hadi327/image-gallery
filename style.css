@@ -1,0 +1,33 @@
+/* Reset & Core Document Layout */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+/* Infinity Wrapper Layer */
+.infinite-gallery-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+    min-height: 600px;
+    overflow: hidden;
+    touch-action: none;
+    user-select: none;
+    cursor: grab;
+}
+
+/* Grabbing state for active panning visual cue */
+.infinite-gallery-wrapper:active {
+    cursor: grabbing;
+}
+
+/* Absolute Scene Stack */
+.infinite-gallery-scene {
+    position: absolute;
+    inset: 0;
+}
