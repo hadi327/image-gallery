@@ -17,4 +17,4 @@ No compilation steps, node environments, or dependencies are necessary.
 
 1. Clone or download this project workspace repository:
    ```bash
-   git clone [https://github.com/hadi328/infinity-canvas.git](https://github.com/hadi328/infinity-canvas.git)
+   git clone [https://github.com/hadi327/infinity-canvas.git](https://github.com/hadi327/infinity-canvas.git)
